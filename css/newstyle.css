@@ -33,11 +33,42 @@
     display: table;
   }
 .horizantal{
-width: 290px;
+width: 270px;
 height: auto;
 
+}
+.deepak{
+  width: 250px;
+  height: auto;
+}
+.khem{
+
+  width: 200px;
+  height: auto;
 }
 
 .row{
 
+}
+.column .physics {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+.chem{
+  margin:10px;
+
+}
+.kedar{
+
+  width: 270px;
+  height: auto;
+}
+.bio{
+  padding-bottom: 25px;
+}
+.kedar .pardeep{
+
+  height: 100px;
+  width: auto;
 }
