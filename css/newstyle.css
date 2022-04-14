@@ -12,9 +12,7 @@
     padding-bottom: 10px;
 }
 
-.nepal-first{
-    
-}
+
 .NHC{
 
     font-size:medium;
@@ -47,9 +45,13 @@ height: auto;
   height: auto;
 }
 
-.row{
 
-}
+
+ .physics{
+  display: flexbox;
+ align-items: center;
+  justify-content:center;
+ }
 .column .physics {
   float: left;
   width: 25%;
@@ -71,4 +73,42 @@ height: auto;
 
   height: 100px;
   width: auto;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.img-wrapper{
+  position: relative;
+
+
+}
+.img-wrapper > img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+
+.img-wrapper > .content {
+  position: absolute;
+  inset: 0;
+  font-size: 2rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, .4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img-wrapper > img,
+.img-wrapper > .content {
+  transition: 200ms ease-in-out;
+}
+
+.img-wrapper:hover > img.blur {
+  filter: blur(5px);
 }
