@@ -1,45 +1,73 @@
-.about-college{
+.about-college {
 
 
-    font-size: 20px;
-    padding-bottom: 50px;
-}
-.moto{
-
-    text-align: center;
-    color: #353535;
-    font-size: 2em;
-    padding-bottom: 10px;
+  font-size: 20px;
+  padding-bottom: 50px;
 }
 
+.moto {
 
-.NHC{
+  text-align: center;
+  color: #353535;
+  font-size: 2em;
+  padding-bottom: 10px;
+}
 
-    font-size:medium;
+.oldHorizon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  box-align: center;
+
+}
+
+.login {
+  width: auto;
+  border: none;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+.custom-navbar .nav .navbar-right li a:hover{
+  background-color: #000000;
+  color: #fff;
+  border-radius: 50%;
+}
+.button:hover {
+  background-color: #f1f1f1;
+  
+}
+
+.NHC {
+
+  font-size: medium;
 }
 
 .column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
-  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-.horizantal{
-width: 270px;
-height: auto;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.horizantal {
+  width: 270px;
+  height: auto;
 
 }
-.deepak{
+
+.deepak {
   width: 250px;
   height: auto;
 }
-.khem{
+
+.khem {
 
   width: 200px;
   height: auto;
@@ -47,44 +75,51 @@ height: auto;
 
 
 
- .physics{
+.physics {
   display: flexbox;
- align-items: center;
-  justify-content:center;
- }
+  align-items: center;
+  justify-content: center;
+}
+
 .column .physics {
   float: left;
   width: 25%;
   padding: 5px;
 }
-.chem{
-  margin:10px;
+
+.chem {
+  margin: 10px;
 
 }
-.kedar{
+
+.kedar {
 
   width: 270px;
   height: auto;
 }
-.bio{
+
+.bio {
   padding-bottom: 25px;
 }
-.kedar .pardeep{
+
+.kedar .pardeep {
 
   height: 100px;
   width: auto;
 }
 
-.grid{
+.grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-.img-wrapper{
+
+.img-wrapper {
   position: relative;
 
 
 }
-.img-wrapper > img {
+
+.img-wrapper>img {
   display: block;
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -94,7 +129,7 @@ height: auto;
 
 
 
-.img-wrapper > .content {
+.img-wrapper>.content {
   position: absolute;
   inset: 0;
   font-size: 2rem;
@@ -104,11 +139,12 @@ height: auto;
   justify-content: center;
   align-items: center;
 }
-img-wrapper > img,
-.img-wrapper > .content {
+
+img-wrapper>img,
+.img-wrapper>.content {
   transition: 200ms ease-in-out;
 }
 
-.img-wrapper:hover > img.blur {
+.img-wrapper:hover>img.blur {
   filter: blur(5px);
 }
