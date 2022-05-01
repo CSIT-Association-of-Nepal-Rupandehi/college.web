@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Muli:300,700|Nunito');
 body {
     background: #ffffff;
@@ -32,7 +31,7 @@ h6 {
 }
 
 h1 {
-    color: #252525;
+    color: #fffdfd;
     font-size: 2.4em;
     line-height: normal;
     text-align: center;
@@ -52,7 +51,7 @@ h3 {
 
 h3,
 h3 a {
-    color: #454545;
+    color: #ffffff;
 }
 
 p {
